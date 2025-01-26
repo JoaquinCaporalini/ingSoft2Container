@@ -30,3 +30,7 @@ chmod u+x run.sh
 Luego ya puedes ejecutar el script `./run.sh`. Otro inconveniente puede ser que se necesite ejecutar el script con permisos de **sudo** esto por como tengas configurado docker 😔.
 
 El script carga todo el directorio dentro del contenedor así que todos los archivos que estén sueltos en el directorio serán cargados.
+
+### Observación
+
+Si usas mac con M1 tal vez debas modificar el script de run y agregarle `--platform linux/amd64`

@@ -21,6 +21,6 @@ RUN add-apt-repository ppa:openjdk-r/ppa && \
 RUN curl https://fceia.unr.edu.ar/~mcristia/fastest-1.7.zip --output fastest.zip && \
     unzip fastest.zip
 
-WORKDIR workspace
+WORKDIR /workspace
 
 CMD ["/bin/sh"]

@@ -20,8 +20,10 @@ echo \
 echo "Contenedor creado con el fin de hacer el trabajo final de Ingeneiría de Software"
 echo "El contenedor tiene carcados:"
 echo "    - Prolog: {log} esta en la carpeta \`/setlog\`. Para trabajar ejecutá "
-echo "            \`cp /setlog/* .\` por única vez"
-echo "    - Prolog: {log} esta en la carpeta \`/setlog\`. Para trabajar ejecutá "
+echo "        \`cp /setlog/* .\` por única vez"
+echo "    - Fastest: Esta en la carpeta \`/fastest\`. Para trabajar ejecutá "
+echo "        \`java -jar fastest.jar\` Copiando en ese directorio la especificación"
+
 
 # Correr el contenedor
 docker run -it -v $(pwd):/workspace ingsoft2 bash

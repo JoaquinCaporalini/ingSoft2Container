@@ -17,8 +17,8 @@ echo \
           /____/                                   
 "
 
-echo "Contenedor creado con el fin de hacer el trabajo final de Ingeneiría de Software"
-echo "El contenedor tiene carcados:"
+echo "Contenedor creado con el fin de hacer el trabajo final de Ingeniería de Software"
+echo "El contenedor tiene cargados:"
 echo "    - Prolog: {log} esta en la carpeta \`/setlog\`. Para trabajar ejecutá "
 echo "        \`cp /setlog/* .\` por única vez"
 echo "    - Fastest: Esta en la carpeta \`/fastest\`. Para trabajar ejecutá "
